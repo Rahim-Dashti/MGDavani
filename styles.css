@@ -35,12 +35,17 @@ body {
     grid-template-columns: repeat(5,1fr);
 }
 
+.header-link {
+    font-size: 3vh;
+}
+
 ul {
     list-style: none;
     color: white;
 }
 
 a {
+    font-size: 10px;
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -78,5 +83,6 @@ li {
     margin: 0 auto 1rem auto;
     border-radius: 50px;
     padding: 2rem;
+    font-size: 1rem;
 }
 
