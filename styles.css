@@ -37,7 +37,7 @@ a {
     color: white;
     text-decoration: none;
     font-weight: 700;
-    
+    font-size: .8rem;
 }
 
 .logo {
@@ -50,3 +50,6 @@ a {
     margin: 0;
 }
 
+li {
+    margin: auto;
+}
