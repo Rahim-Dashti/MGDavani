@@ -92,13 +92,14 @@ li {
     background-color: rgba(0, 0, 0, .85);
     text-align: center;
     color: white;
-    height: 3rem;
+    height: 2rem;
     display: flex;
     margin-top: auto;
 }
 
 .footer-text {
     margin: auto;
+    font-size: .5rem;
 }
 
 .main {
