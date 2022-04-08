@@ -25,7 +25,7 @@ body {
 
 .header-links {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(5,1fr);
 }
 
 ul {
@@ -37,7 +37,7 @@ a {
     color: white;
     text-decoration: none;
     font-weight: 700;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .logo {
