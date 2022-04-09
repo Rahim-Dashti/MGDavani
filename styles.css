@@ -142,6 +142,7 @@ li {
     border-radius: 30px;
     width: 85%;
     border: 1px solid black;
+    resize: none;
 }
 
 .contact-name , .contact-email {
