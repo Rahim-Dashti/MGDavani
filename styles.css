@@ -33,7 +33,7 @@ body {
 
 .header-links {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
     padding: 0 1rem 0 1rem;
     margin: 0;
 }
