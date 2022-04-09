@@ -76,11 +76,12 @@ li {
     grid-auto-rows: auto;
     gap: 5px;
     padding: 1rem;
+    margin-top: 25px;
 }
 
 .content {
     background-color: rgba(255, 255, 255, .6);
-    width: 50%;
+    width: 75%;
     margin: 0 auto 1rem auto;
     border-radius: 50px;
     padding: 2rem;
@@ -145,11 +146,20 @@ li {
 
 .contact-name , .contact-email {
     display: grid;
+    justify-content: center;
+    align-content: center;
     grid-auto-flow: column;
-    grid-template-columns: 1fr 7fr;
+    grid-template-columns: 1fr 9fr;
     margin-bottom: 20px;
 }
 
 .text-section {
     margin-bottom: 10px;
+}
+
+.contact-name > label , .contact-email > label {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
 }
