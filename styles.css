@@ -131,6 +131,9 @@ li {
 .input-area {
     border-radius: 30px;
     width: 80%;
+    font-family: roboto;
+    font-weight: 700;
+    padding-left: 10px;
 }
 
 .contact-text {
@@ -143,6 +146,9 @@ li {
     width: 85%;
     border: 1px solid black;
     resize: none;
+    font-family: roboto;
+    font-weight: 700;
+    padding: 10px;
 }
 
 .contact-name , .contact-email {
@@ -163,4 +169,17 @@ li {
   justify-content: center;
   align-content: center;
   align-self: center;
+}
+
+.input-area:hover {
+    border-color: rgb(131, 131, 238);
+}
+
+.contact-text > textarea:hover {
+    border-color: rgb(131, 131, 238);
+}
+
+.contact-button:hover {
+    background-color: rgb(129, 129, 138);
+    color: black;
 }
